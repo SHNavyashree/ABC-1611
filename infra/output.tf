@@ -1,8 +1,10 @@
 output "vm1_public_ip" {
-  value = azurerm_public_ip.public_ip.ip_address
+  description = "Public IP address of VM1"
+  value       = azurerm_public_ip.vm1_public_ip.ip_address
 }
 
 output "vm2_private_ip" {
-  value = azurerm_network_interface.nic2.private_ip_address
+  description = "Private IP address of VM2"
+  value       = azurerm_network_interface.nic_vm2.private_ip_address
 }
 

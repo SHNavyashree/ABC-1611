@@ -1,10 +1,12 @@
-variable "vm_username" {
-  type = string
-  default = "azureuser"
+variable "vm_admin_username" {
+  description = "Admin username for both VMs"
+  type        = string
+  default     = "azureuser"
 }
 
-variable "ssh_key_path" {
-  type = string
-  default = "~/.ssh/id_rsa.pub"
+variable "public_key_path" {
+  description = "Path to the SSH public key"
+  type        = string
+  default     = "/home/azureuser/.ssh/id_rsa.pub"
 }
 
