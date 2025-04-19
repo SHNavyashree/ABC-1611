@@ -1,1 +1,0 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"network_vm_module","Source":"../infra","Dir":"../infra"},{"Key":"vnet_vm_module","Source":"git::https://github.com/SHNavyashree/ABC-1611.git//infra","Dir":".terraform/modules/vnet_vm_module/infra"}]}
